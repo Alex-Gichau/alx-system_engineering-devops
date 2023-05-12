@@ -26,3 +26,6 @@ In general, it is a very bad idea to give write permission to group or world. It
 Make sure to remove all group and world permissions from files you want to keep private: chmod 700 [filename].
 
 To remove the owner's write permission, which would prevent you from accidentally overwriting or erasing the file, you would type chmod u-w [filename] or chmod 600[filename]. You can still remove the file but first you'll be asked for confirmation.
+
+![image](https://github.com/Alex-Gichau/alx-system_engineering-devops/assets/52883664/34eb8b55-07a9-4158-985e-ef6b7c3fd9a1)
+
