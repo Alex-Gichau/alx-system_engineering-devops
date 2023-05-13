@@ -1,0 +1,3 @@
+#!/bin/bash
+[200~ls -d .[!.]* * | LC_ALL=C sort -d -t$'\n' -k1.1,1.1 -k1.2n -k1.3d -k1.4,1. | sed 's/$/\//' | tr '\n' ','
+
